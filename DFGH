@@ -1,0 +1,653 @@
+local OpenUI = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+OpenUI.Name = "OpenUI"
+OpenUI.Parent = game.CoreGui
+OpenUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ImageButton.Parent = OpenUI
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 0.500
+ImageButton.Position = UDim2.new(0.0235790554, 0, 0.466334164, 0)
+ImageButton.Size = UDim2.new(0.034, 0,0.067, 0)
+ImageButton.Image = "rbxassetid://13429676701"
+ImageButton.Draggable = true
+UICorner.CornerRadius = UDim.new(0, 200)
+UICorner.Parent = ImageButton
+ImageButton.MouseButton1Click:Connect(function()
+if game.CoreGui:FindFirstChild("Darkrai").Enabled == true then
+game.CoreGui:FindFirstChild("Darkrai").Enabled = false
+else
+game.CoreGui:FindFirstChild("Darkrai").Enabled = true
+end
+end)--加入我们群号170048648
+--找静新反馈QQ170048648
+
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/6666666666/main/%E5%8A%A0%E8%BD%BD%E4%B8%AD%E7%BB%8F%E7%90%86%E5%B0%8F%E4%BA%91yun.lua", true))()
+
+
+local Library = DarkraiX:Window("Golden Haze","静新制作","",Enum.KeyCode.RightControl);
+
+Tab1 = Library:Tab("物品(全游戏通用)")
+
+Tab1:Button("披萨",function()
+    local item = game:GetObjects("rbxassetid://22596452")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("收音机",function()
+    local item = game:GetObjects("rbxassetid://212641536")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("可乐",function()
+    local item = game:GetObjects("rbxassetid://10472779")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("药水",function()
+    local item = game:GetObjects("rbxassetid://11419319")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("刀子",function()
+    local item = game:GetObjects("rbxassetid://121946387")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("耳蛋机",function()
+    local item = game:GetObjects("rbxassetid://10472779")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("枪",function()
+    local item = game:GetObjects("rbxassetid://95354288")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("手里剑",function()
+    local item = game:GetObjects("rbxassetid://11377306")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("汤姆逊",function()
+    local item = game:GetObjects("rbxassetid://116693764")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("武士刀",function()
+    local item = game:GetObjects("rbxassetid://12187348")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("死灵法杖",function()
+    local item = game:GetObjects("rbxassetid://127506105")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("罐子",function()
+    local item = game:GetObjects("rbxassetid://113328094")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("玩具熊",function()
+    local item = game:GetObjects("rbxassetid://12848902")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("飞行毯",function()
+    local item = game:GetObjects("rbxassetid://225921000")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("寒冰刃",function()
+    local item = game:GetObjects("rbxassetid://168141301")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+Tab1:Button("奶茶",function()
+    local item = game:GetObjects("rbxassetid://15932306")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("红蓝东西",function()
+    local item = game:GetObjects("rbxassetid://78730532")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("锤子",function()
+    local item = game:GetObjects("rbxassetid://10468797")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("火箭筒",function()
+    local item = game:GetObjects("rbxassetid://904534058")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("罗布乐思奖",function()
+    local item = game:GetObjects("rbxassetid://99641902")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("红色能量枪",function()
+    local item = game:GetObjects("rbxassetid://212296936")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("小紫机",function()
+    local item = game:GetObjects("rbxassetid://2906732820")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("恐龙家族",function()
+    local item = game:GetObjects("rbxassetid://292970740")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("枪狗",function()
+    local item = game:GetObjects("rbxassetid://257810065")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("哥斯拉",function()
+    local item = game:GetObjects("rbxassetid://3130875522")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("巴啦啦法杖",function()
+    local item = game:GetObjects("rbxassetid://114020480")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("🏆",function()
+    local item = game:GetObjects("rbxassetid://2758794374")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("绿色答辩",function()
+    local item = game:GetObjects("rbxassetid://1981809272")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("彩虹刀",function()
+    local item = game:GetObjects("rbxassetid://159229806")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("死神镰刀",function()
+    local item = game:GetObjects("rbxassetid://306971294")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("长刀",function()
+    local item = game:GetObjects("rbxassetid://11453385")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("逮虾户",function()
+    local item = game:GetObjects("rbxassetid://253519495")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("能量刀",function()
+    local item = game:GetObjects("rbxassetid://427947884")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("神秘核心",function()
+    local item = game:GetObjects("rbxassetid://11999247")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1:Button("呆毛",function()
+    local item = game:GetObjects("rbxassetid://30392263")[1]item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tab1 = Library:Tab("史莱克在后室")local cupList = {}
+
+Tab1:Button("透视洋葱",function()
+    local cupList = {}
+
+local function enableDoorCups()
+    for i, cup in pairs(workspace:GetDescendants()) do
+        if cup:IsA("BasePart") and cup.Name == "Onion" then
+            local cupChams = Instance.new("BoxHandleAdornment")
+            cupChams.Size = cup.Size + Vector3.new(0.1, 0.1, 0.1)
+            cupChams.Adornee = cup
+            cupChams.Color3 = Color3.fromRGB(0, 0, 255)
+            cupChams.Transparency = 0.5
+            cupChams.ZIndex = 10
+            cupChams.AlwaysOnTop = true
+            cupChams.Visible = true
+            cupChams.Parent = cup
+
+            table.insert(cupList, cupChams)
+        end
+    end
+end
+
+local function disableDoorCups()
+    for i, cup in ipairs(cupList) do
+        cup:Destroy()
+    end
+    cupList = {}
+end
+
+enableDoorCups()
+end)
+
+Tab2 = Library:Tab("忍者")
+
+Tab2:Button("传送到出生点",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.665502548217773, 3.4228405952453613, 29.919952392578125)
+end)
+
+Tab2:Button("传送到附魔岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(51.17238235473633, 766.1807861328125, -138.44842529296875)
+end)
+
+Tab2:Button("传送到星界岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(207.2932891845703, 2013.88037109375, 237.36672973632812)
+end)
+
+Tab2:Button("传送到神秘岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(171.97178649902344, 4047.380859375, 42.0699577331543)
+end)
+
+Tab2:Button("传送到太空岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.83824157714844, 5657.18505859375, 73.5014877319336)
+end)
+
+Tab2:Button("传送到冻土岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(139.28330993652344, 9285.18359375, 77.36406707763672)
+end)
+
+Tab2:Button("传送到永恒岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149.34817504882812, 13680.037109375, 73.3861312866211)
+end)
+
+Tab2:Button("传送到沙暴岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133.37144470214844, 17686.328125, 72.00334167480469)
+end)
+
+Tab2:Button("传送到雷暴岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.19349670410156, 24070.021484375, 78.05432891845703)
+end)
+
+Tab2:Button("传送到远古炼狱岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(141.27163696289062, 28256.294921875, 69.3790283203125)
+end)
+
+Tab2:Button("传送到午夜暗影岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(132.74267578125, 33206.98046875, 57.495574951171875)
+end)
+
+Tab2:Button("传送到神秘灵魂岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.76148986816406, 39317.5703125, 61.06639862060547)
+end)
+
+Tab2:Button("传送到冬季奇迹岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.2720184326172, 46010.5546875, 55.941951751708984)
+end)
+
+Tab2:Button("传送到黄金大师岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(128.32339477539062, 52607.765625, 56.69411849975586)
+end)
+
+Tab2:Button("传送到龙传奇岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(146.35226440429688, 59594.6796875, 77.53300476074219)
+end)
+
+Tab2:Button("传送到赛博传奇岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.3321075439453, 66669.1640625, 72.21722412109375)
+end)
+
+Tab2:Button("传送到天岚超能岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.48077392578125, 70271.15625, 57.02311325073242)
+end)
+
+Tab2:Button("传送到混沌传奇岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.58590698242188, 74442.8515625, 69.3177719116211)
+end)
+
+Tab2:Button("传送到灵魂融合岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(136.9700927734375, 79746.984375, 58.54051971435547)
+end)
+
+Tab2:Button("传送到黑暗元素岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(141.697265625, 83198.984375, 72.73107147216797)
+end)
+
+Tab2:Button("传送到内心和平岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.3157501220703, 87051.0625, 66.78429412841797)
+end)
+
+Tab2:Button("传送到炽烈漩涡岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.08216857910156, 91246.0703125, 69.56692504882812)
+end)
+
+Tab2:Button("传送到35倍金币区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(86.2938232421875, 91245.765625, 120.54232788085938)
+end)
+
+Tab2:Button("传送到死亡宠物",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4593.21337890625, 130.87181091308594, 1430.2239990234375)
+end)
+
+Tab2 = Library:Tab("监狱人生")
+
+Tab2:Button("变车模型",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zLe3e4BS"))()
+end)
+
+Tab2:Button("变死神（有惊喜仅自己可见）",function()
+loadstring(game:HttpGet("https://pastebin.com/ewv9bbRp"))()
+end)
+
+Tab2:Button("变钢铁侠（有惊喜别人能看见）",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7prijqYH"))()
+end)
+
+Tab2:Button("手里剑（秒杀）",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mSLiAZHk"))()
+end)
+
+Tab2:Button("杀死全部（新版重复杀）",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kXjfpFPh"))()
+end)
+
+Tab2:Button("无敌模式（别人可见）",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LdTVujTA"))()
+end)
+
+Tab2:Button("警卫室",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(847.7261352539062, 98.95999908447266, 2267.387451171875)
+end)
+
+Tab2:Button("罪犯复活点",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(919.2575073242188, 98.95999908447266, 2379.74169921875)
+end)
+
+Tab2:Button("监狱室外",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(760.6033325195312, 96.96992492675781, 2475.405029296875)
+end)
+
+Tab2 = Library:Tab("一路向西")
+
+Tab2:Button("防摔",function()
+loadstring(game:GetObjects("rbxassetid://10040712770")[1].Source)()
+end)
+
+Tab2:Button("防套",function()
+loadstring(game:GetObjects("rbxassetid://10040719318")[1].Source)()
+end)
+
+Tab2:Button("范围",function()
+loadstring(game:GetObjects("rbxassetid://10040722920")[1].Source)()
+end)
+
+Tab2:Button("无后座，无限，超级",function()
+loadstring(game:GetObjects("rbxassetid://10040701935")[1].Source)()
+end)
+
+Tab2 = Library:Tab("赵船寻宝")
+
+Tab2:Button("自动刷金条",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MRAEpRnv",true))()
+end)
+
+Tab2:Button("工具包（可破别人团队模式空气墙）",function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+Tab2 = Library:Tab("极速传奇")
+
+Tab2:Button("开启卡宠",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87"))()
+end)
+
+Tab2:Button("自动重生和自动刷等级",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87%E5%8A%9F%E8%83%BD"))()
+end)
+
+Tab2:Button("返还出生岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9682.98828125, 58.87917709350586, 3099.033935546875)
+end)
+
+Tab2:Button("白雪城",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9676.138671875, 58.87917709350586, 3782.69384765625)
+end)
+
+Tab2:Button("传奇公路",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13098.87109375, 216.83917236328125, 5907.6279296875)
+end)
+
+Tab2:Button("传送到沙漠",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2518.9970703125, 15.3969087600708, 4353.93359375)
+end)
+
+Tab2:Button("传送到熔岩城",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1615.29296875, 4.555709362030029, 4331.70947265625)
+end)
+
+Tab2:Button("传送到开欧米茄区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4538.7578125, 75.03028106689453, 6409.03271484375)
+end)
+
+Tab2 = Library:Tab("超级大力士")
+
+Tab2:Button("传送到开始区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(85.86943817138672, 11.751949310302734, -198.07127380371094)
+end)
+
+Tab2:Button("传送到健身区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(93.60747528076172, 11.751947402954102, -10.266206741333008)
+end)
+
+Tab2:Button("传送到食物区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(78.86384582519531, 11.751947402954102, 228.9690399169922)
+end)
+
+Tab2:Button("传送到街机区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.99887084960938, 11.751949310302734, 502.90997314453125)
+end)
+
+Tab2:Button("传送到农场区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(85.6707763671875, 11.751947402954102, 788.5997314453125)
+end)
+
+Tab2:Button("传送到城堡区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.87281036376953, 11.84177017211914, 1139.7509765625)
+end)
+
+Tab2:Button("传送到蒸汽朋克区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(92.63227081298828, 11.841767311096191, 1692.7890625)
+end)
+
+Tab2:Button("传送到迪斯科区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(98.69613647460938, 16.015085220336914, 2505.213134765625)
+end)
+
+Tab2:Button("传送到太空区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.42948150634766, 11.841769218444824, 3425.941650390625)
+end)
+
+Tab2:Button("传送到糖果区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63.55805969238281, 11.841663360595703, 4340.69921875)
+end)
+
+Tab2:Button("传送到恐龙区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(38.4753303527832, 25.801530838012695, 6937.779296875)
+end)
+
+Tab2:Button("传送到复古区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99.81867218017578, 12.89099407196045, 7901.74755859375)
+end)
+
+Tab2:Button("传送到冬季区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(63.47243881225586, 11.841662406921387, 8983.810546875)
+end)
+
+Tab2:Button("传送到深海区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(105.36250305175781, 26.44820213317871, 9970.0849609375)
+end)
+
+Tab2:Button("传送到豪华公寓区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(86.75145721435547, 11.313281059265137, 12130.349609375)
+end)
+
+Tab2:Button("传送到下水道区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.36086654663086, 12.25178050994873, 17656.04296875)
+end)
+
+Tab2 = Library:Tab("力量传奇")
+
+Tab2:Button("传送到出生点",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(7, 3, 108)
+end)
+
+Tab2:Button("传送到冰霜健身房",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2543, 13, -410)
+end)
+
+Tab2:Button("传送到神话健身房",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2177, 13, 1070)
+end)
+
+Tab2:Button("传送到永恒健身房",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6686, 13, -1284)
+end)
+
+Tab2:Button("传送到传说健身房",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4676, 997, -3915)
+end)
+
+Tab2:Button("传送到肌肉之王健身房",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8554, 22, -5642)
+end)
+
+Tab2:Button("传送到安全岛",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39, 10, 1838)
+end)
+
+Tab2:Button("传送到幸运抽奖区域",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2606, -2, 5753)
+end)
+
+Tab2 = Library:Tab("蜂群")
+
+Tab2:Button("蜂",function()
+loadstring(game:HttpGet("https://roblox.servegame.com/roblox_bss/chocmoc.lua"))()
+end)
+
+Tab2:Button("云宠物",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/T34M-V0ID/cloud-hub/main/cloud"))()
+end)
+
+Tab2 = Library:Tab("其他")
+
+Tab2:Button("餐厅大亨2",function()
+loadstring(game:httpget("https://raw.githubusercontent.com/LabibKazi858/Scripts/main/Restaurant%20Tycoon%202", true))()
+end)
+
+Tab2:Button("幸运战场",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
+
+Tab2:Button("胭脂模拟器",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/USA868/USA--/main/%E5%8C%97%E7%BA%A6%E8%84%82%E8%82%AA?token=GHSAT0AAAAAACB6LLQXW62E3GRGCTS3O4RCZCMUN2Q"))()
+end)
+
+Tab2:Button("BOL",function()
+loadstring(game:HttpGet("https://github.com/ScriptKiddyQuinn/Blox-Hub-Version-1.3/blob/main/Blox%20Hub%20Version%201.3", true))()
+end)
+
+Tab2:Button("音乐",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/beta/main/music.lua"))()
+end)
+
+Tab2:Button("轰炸（封号风险）",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/%E8%BD%B0%E7%82%B8.lua"))()
+end)
+
+Tab2:Button("兵工厂",function()
+loadstring(game:HttpGet('http://pan.rlyun.asia/api/v3/file/get/15369/%E4%B9%92%E5%B7%A5%E5%8E%82?sign=pDWgMBQ_m8pjcTS9-o8N1zvCmYmc6LsQVjeDaypp0bw%3D%3A0'))()
+end)
+
+Tab2:Button("鲨口求生",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
+end)
+
+Tab2:Button("eyabe新版",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Wangzhehaoh/fly-away/main/---EF---fluxus%20debtsesgh%20%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%84%9A%E6%9C%ACEF%20%E6%B5%8B%E8%AF%95%E7%89%88"))()
+end)
+
+Tab2:Button("技能大战",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/hitbox2/main/op'))()
+end)
+
+Tab2:Button("伐木",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+end)
+
+Tab2:Button("彩虹朋友Ⅴ3",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+end)
+
+Tab2:Button("超级牛逼的",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+
+Tab2:Button("巴掌模拟器",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownkellymc1/Unknownscripts/main/slap-battles')))()
+end)
+
+Tab2 = Library:Tab("EZ Hub")
+
+Tab2:Button("客户端脚本中心",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ObviouslyOrchi/Moonlight_Client.lua/main/Universal",true))()
+end)
+
+Tab2:Button("作弊中心",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mrgunz/UnnamedCheat/main/Loader"))();
+end)
+
+Tab2:Button("阿斯顿中心",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+Tab2:Button("脚本中心（外网）",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
+end)
+
+Tab2:Button("HOHO中心",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Tab2:Button("移动中心",function()
+loadstring(game:HttpGetAsync("https://shz.al/~mobile-hub-v2"))()
+end)
+
+Tab2:Button("Every day中心",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
+end)
+
+Tab2:Button("脚本中心（另一版本）",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fgasfga/SCRIPT-HUB/main/Hello.lua", true))()
+end)
+
+Tab2:Button("通用中心",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivex123456/main/main/script"))()
+end)
+
+Tab2:Button("140中心",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Tab2:Button("伦敦中心",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+
+Tab2 = Library:Tab("bf")
+
+Tab2:Button("10",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Mobile-V2"))()
+end)
+
+Tab2:Button("9",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\101\115\116\120\101\109\99\104\117\97\47\97\103\97\103\97\103\97\113\47\109\97\105\110\47\85\105\47\104\104\104\46\108\117\97\34\41\41\40\41\10")()
+end)
+
+Tab2:Button("7",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/ZeusHub/main/Loading_Ui"))()
+end)
+
+Tab2:Button("6",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+end)
+
+Tab2:Button("5",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/STRAW%20HUB%20RELEASE", true))()
+end)
+
+Tab2:Button("4",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+end)
+
+Tab2:Button("bf练级专用以上都是bf",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+end)
+
+Tab1 = Library:Tab("都在bf里面往下翻")
+
+Tab2:Button("静新doors系统",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jxdjbx/FGH/main/%E9%9D%99%E6%96%B0"))()
+end)
